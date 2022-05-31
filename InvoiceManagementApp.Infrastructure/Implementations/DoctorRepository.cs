@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace InvoiceManagementApp.Application.Implementations
 {
-    public class DoctorRepository : RepositoryBase<Doctor>
+    public class DoctorRepository 
     {
         private readonly ApplicationDbContext context;
 
-        public DoctorRepository(ApplicationDbContext context) : base(context)
+        public DoctorRepository(ApplicationDbContext context) 
         {
             this.context = context;
         }

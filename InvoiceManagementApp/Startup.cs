@@ -1,6 +1,5 @@
-using InvoiceManagementApp.Application.DependencyInjection;
-using InvoiceManagementApp.Application.Interfaces;
-using InvoiceManagementApp.Context;
+
+using InvoiceManagementApp.Infrastructure.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,12 +29,8 @@ namespace InvoiceManagementApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddServices();
-            services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
-            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
+            services.AddServices(Configuration);
             services.AddControllers();
-            //services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "InvoiceManagementApp", Version = "v1" });

@@ -2,6 +2,7 @@
 using InvoiceManagementApp.Application.Interfaces;
 using InvoiceManagementApp.Domain.DTOs;
 using InvoiceManagementApp.Domain.Entities;
+using LoggerService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -15,13 +16,16 @@ namespace InvoiceManagementApp.Controllers
     [ApiController]
     public class PatientController : ControllerBase
     {
-        private readonly IRepositoryBase<Patient> repository;
+        private readonly IGenericRepository<Patient> repository;
         private readonly IAppointmentDateRepository<AppointmentDate> repositoryAppointment;
         private readonly IMapper mapper;
-        public PatientController(IRepositoryBase<Patient> repository, IMapper mapper)
+        private readonly ILoggerManager logger;
+
+        public PatientController(IGenericRepository<Patient> repository, IMapper mapper, ILoggerManager logger)
         {
             this.repository = repository;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         [HttpGet]
@@ -35,7 +39,7 @@ namespace InvoiceManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                //logger.LogError($"Something went wrong inside the GetPatientById action: {ex.Message}");
+                logger.LogError($"Something went wrong inside the GetPatientById action: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
         }
@@ -49,7 +53,7 @@ namespace InvoiceManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                //logger.LogError($"Something went wrong inside the GetPatiens action: {ex.Message}");
+                logger.LogError($"Something went wrong inside the GetPatiens action: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
         }
@@ -64,7 +68,7 @@ namespace InvoiceManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                //logger.LogError($"Something went wrong inside the GetPatientListDates action: {ex.Message}");
+                logger.LogError($"Something went wrong inside the GetPatientListDates action: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
         }
@@ -80,7 +84,7 @@ namespace InvoiceManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                //logger.LogError($"Something went wrong inside the PostPatient action: {ex.Message}");
+                logger.LogError($"Something went wrong inside the PostPatient action: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
 
@@ -96,7 +100,7 @@ namespace InvoiceManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                //logger.LogError($"Something went wrong inside the PutPatient action: {ex.Message}");
+                logger.LogError($"Something went wrong inside the PutPatient action: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
 
@@ -112,7 +116,7 @@ namespace InvoiceManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                //logger.LogError($"Something went wrong inside the DeletePatient action: {ex.Message}");
+                logger.LogError($"Something went wrong inside the DeletePatient action: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
         }

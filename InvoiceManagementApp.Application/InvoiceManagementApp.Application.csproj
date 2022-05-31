@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InvoiceManagementApp.Domain\InvoiceManagementApp.Domain.csproj" />
+    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
   </ItemGroup>
 
   <ItemGroup>

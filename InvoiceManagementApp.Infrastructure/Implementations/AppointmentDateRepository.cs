@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace InvoiceManagementApp.Application.Implementations
 {
-    public class AppointmentDateRepository : RepositoryBase<AppointmentDate>
+    public class AppointmentDateRepository 
     {
         private readonly ApplicationDbContext context;
-        public AppointmentDateRepository(ApplicationDbContext context) : base(context)
+        public AppointmentDateRepository(ApplicationDbContext context)
         {
             this.context = context;
         }
