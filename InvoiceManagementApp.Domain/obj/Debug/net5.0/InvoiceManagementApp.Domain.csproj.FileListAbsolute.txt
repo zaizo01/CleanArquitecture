@@ -1,0 +1,12 @@
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\net5.0\InvoiceManagementApp.Domain.deps.json
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\net5.0\InvoiceManagementApp.Domain.dll
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\net5.0\ref\InvoiceManagementApp.Domain.dll
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\net5.0\InvoiceManagementApp.Domain.pdb
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.csproj.AssemblyReference.cache
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.AssemblyInfoInputs.cache
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.AssemblyInfo.cs
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.dll
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\ref\InvoiceManagementApp.Domain.dll
+C:\Users\zaiz\source\repos\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\net5.0\InvoiceManagementApp.Domain.pdb
