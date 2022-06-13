@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "InvoiceManagementApp/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "InvoiceManagementApp.Application": "1.0.0",
           "InvoiceManagementApp.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
@@ -1649,7 +1650,6 @@
       },
       "InvoiceManagementApp.Application/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "FluentValidation": "11.0.2",
           "FluentValidation.DependencyInjectionExtensions": "11.0.2",
           "InvoiceManagementApp.Domain": "1.0.0",
@@ -1664,6 +1664,9 @@
         }
       },
       "InvoiceManagementApp.Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1"
+        },
         "runtime": {
           "InvoiceManagementApp.Domain.dll": {}
         },

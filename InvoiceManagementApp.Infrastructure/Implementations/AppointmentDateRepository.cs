@@ -1,6 +1,5 @@
-﻿using InvoiceManagementApp.Application.Interfaces;
+﻿using InvoiceManagementApp.Application.DTOs;
 using InvoiceManagementApp.Context;
-using InvoiceManagementApp.Domain.DTOs;
 using InvoiceManagementApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;

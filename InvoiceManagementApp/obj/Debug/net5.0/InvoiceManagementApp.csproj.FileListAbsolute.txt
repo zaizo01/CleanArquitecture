@@ -177,3 +177,4 @@ C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp\obj\Debug
 C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp\obj\Debug\net5.0\InvoiceManagementApp.RazorTargetAssemblyInfo.cache
 C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp\obj\Debug\net5.0\InvoiceManagementApp.csproj.CopyComplete
 C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp\obj\Debug\net5.0\InvoiceManagementApp.genruntimeconfig.cache
+C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp\obj\Debug\net5.0\InvoiceManagementApp.MvcApplicationPartsAssemblyInfo.cs

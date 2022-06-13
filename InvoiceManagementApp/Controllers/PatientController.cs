@@ -1,13 +1,11 @@
 ﻿using AutoMapper;
+using InvoiceManagementApp.Application.DTOs;
 using InvoiceManagementApp.Application.Interfaces;
-using InvoiceManagementApp.Domain.DTOs;
 using InvoiceManagementApp.Domain.Entities;
 using LoggerService;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace InvoiceManagementApp.Controllers
@@ -17,14 +15,15 @@ namespace InvoiceManagementApp.Controllers
     public class PatientController : ControllerBase
     {
         private readonly IGenericRepository<Patient> repository;
-        private readonly IAppointmentDateRepository<AppointmentDate> repositoryAppointment;
+        //private readonly IAppointmentDateRepository<AppointmentDate> repositoryAppointment;
         private readonly IMapper mapper;
         private readonly ILoggerManager logger;
 
-        public PatientController(IGenericRepository<Patient> repository, IMapper mapper, ILoggerManager logger)
+        public PatientController(IGenericRepository<Patient> repository,/* IAppointmentDateRepository<AppointmentDate> repositoryAppointment,*/ IMapper mapper, ILoggerManager logger)
         {
             this.repository = repository;
             this.mapper = mapper;
+            //this.repositoryAppointment = repositoryAppointment;
             this.logger = logger;
         }
 
@@ -58,20 +57,20 @@ namespace InvoiceManagementApp.Controllers
             }
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetPatientListDates(Guid patientId)
-        {
-            try
-            {
-                var patientDates = await repositoryAppointment.GetPatientListOfDates(patientId);
-                return Ok(mapper.Map<List<ListOfDatesByPatient>>(patientDates));
-            }
-            catch (Exception ex)
-            {
-                logger.LogError($"Something went wrong inside the GetPatientListDates action: {ex.Message}");
-                return StatusCode(500, "Internal server error.");
-            }
-        }
+        //[HttpGet]
+        //public async Task<IActionResult> GetPatientListDates(Guid patientId)
+        //{
+        //    try
+        //    {
+        //        var patientDates = await repositoryAppointment.GetPatientListOfDates(patientId);
+        //        return Ok(mapper.Map<List<ListOfDatesByPatient>>(patientDates));
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        logger.LogError($"Something went wrong inside the GetPatientListDates action: {ex.Message}");
+        //        return StatusCode(500, "Internal server error.");
+        //    }
+        //}
 
         [HttpPost]
         public async Task<IActionResult> PostPatient(PatientPostDTO patientDto)
@@ -80,7 +79,7 @@ namespace InvoiceManagementApp.Controllers
             {
                 var patient = mapper.Map<Patient>(patientDto);
                 await repository.Create(patient);
-                return Ok(patient);
+                return Ok(patientDto);
             }
             catch (Exception ex)
             {

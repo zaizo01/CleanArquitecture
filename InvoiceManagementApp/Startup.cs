@@ -30,6 +30,7 @@ namespace InvoiceManagementApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddServices(Configuration);
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

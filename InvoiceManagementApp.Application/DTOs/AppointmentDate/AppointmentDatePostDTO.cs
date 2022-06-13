@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InvoiceManagementApp.Domain.DTOs
+namespace InvoiceManagementApp.Application.DTOs
 {
     public class AppointmentDatePostDTO
     {
