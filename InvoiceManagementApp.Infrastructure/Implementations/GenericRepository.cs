@@ -28,7 +28,8 @@ namespace InvoiceManagementApp.Application.Implementations
         {
             var entity = await GetById(id);
             if (entity == null) throw new Exception("The entity is null");
-            context.Set<T>().Remove(entity);
+            //context.Set<T>().Update(entity);
+            context.Entry(entity).State = EntityState.Deleted;
             await context.SaveChangesAsync();
             return entity;
         }

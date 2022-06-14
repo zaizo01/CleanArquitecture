@@ -27,12 +27,20 @@ namespace InvoiceManagementApp.Context
                 switch (entry.State)
                 {
                     case EntityState.Added:
-                        entry.Entity.CreatedBy = "270e94e2-f8f0-4100-8432-f24ef6469a38";
+                        entry.Entity.CreatedBy = "CRISTOPHER ADD";
                         entry.Entity.CreatedDate = DateTime.UtcNow;
+                        entry.Entity.IsActive = true;
                         break;
                     case EntityState.Modified:
-                        entry.Entity.LastModifiedBy = "3af59cc8-4c4a-4730-9a66-d1188b0bae4f";
+                        entry.Entity.LastModifiedBy = "CRISTOPHER MODIFIED";
                         entry.Entity.LastModifiedDate = DateTime.UtcNow;
+                        entry.Entity.IsActive = true;
+                        break;
+                    case EntityState.Deleted:
+                        entry.State = EntityState.Modified;
+                        entry.Entity.LastModifiedBy = "CRISTOPHER DELETED";
+                        entry.Entity.LastModifiedDate = DateTime.UtcNow;
+                        entry.Entity.IsActive = false;
                         break;
                 }
             }

@@ -93,12 +93,13 @@ namespace InvoiceManagementApp.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> PutDoctor(Doctor doctor)
+        public async Task<IActionResult> PutDoctor(DoctorGetDTO doctor)
         {
             try
             {
-                var doctorDB = await repository.Update(doctor);
-                return Ok(doctorDB);
+                var doctorDTO = mapper.Map<Doctor>(doctor);
+                var doctorDB = await repository.Update(doctorDTO);
+                return Ok(doctor);
             }
             catch (Exception ex)
             {
