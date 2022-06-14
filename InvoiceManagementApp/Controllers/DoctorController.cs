@@ -6,6 +6,7 @@ using LoggerService;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace InvoiceManagementApp.Controllers
@@ -50,7 +51,8 @@ namespace InvoiceManagementApp.Controllers
             try
             {
                 var doctors = await repository.GetAll();
-                return Ok(mapper.Map<List<DoctorGetDTO>>(doctors));
+                var activeDoctors = doctors.Where(x => x.IsActive = true);
+                return Ok(mapper.Map<List<DoctorGetDTO>>(activeDoctors));
             }
             catch (Exception ex)
             {

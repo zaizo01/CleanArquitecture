@@ -48,10 +48,8 @@ C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastruc
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\InvoiceManagementApp.Infrastructure.pdb
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\InvoiceManagementApp.Application.dll
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\InvoiceManagementApp.Domain.dll
-C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\LoggerService.dll
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\InvoiceManagementApp.Application.pdb
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\InvoiceManagementApp.Domain.pdb
-C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\bin\Debug\net5.0\LoggerService.pdb
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\obj\Debug\net5.0\InvoiceManagementApp.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\obj\Debug\net5.0\InvoiceManagementApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\zaiz\Desktop\Projects\CleanArquitecture\InvoiceManagementApp.Infrastructure\obj\Debug\net5.0\InvoiceManagementApp.Infrastructure.AssemblyInfoInputs.cache

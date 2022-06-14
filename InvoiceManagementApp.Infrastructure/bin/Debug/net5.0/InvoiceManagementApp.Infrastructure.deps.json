@@ -14,7 +14,10 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.0"
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
+          "NLog": "4.7.13",
+          "NLog.Web.AspNetCore": "4.9.1",
+          "System.Data.SqlClient": "4.7.0"
         },
         "runtime": {
           "InvoiceManagementApp.Infrastructure.dll": {}
@@ -1193,7 +1196,6 @@
           "FluentValidation": "11.0.2",
           "FluentValidation.DependencyInjectionExtensions": "11.0.2",
           "InvoiceManagementApp.Domain": "1.0.0",
-          "LoggerService": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "runtime": {
@@ -1206,16 +1208,6 @@
         },
         "runtime": {
           "InvoiceManagementApp.Domain.dll": {}
-        }
-      },
-      "LoggerService/1.0.0": {
-        "dependencies": {
-          "NLog": "4.7.13",
-          "NLog.Web.AspNetCore": "4.9.1",
-          "System.Data.SqlClient": "4.7.0"
-        },
-        "runtime": {
-          "LoggerService.dll": {}
         }
       }
     }
@@ -2107,11 +2099,6 @@
       "sha512": ""
     },
     "InvoiceManagementApp.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LoggerService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
