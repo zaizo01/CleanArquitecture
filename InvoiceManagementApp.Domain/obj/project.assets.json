@@ -283,23 +283,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CZaiz\\.nuget\\packages\\": {},
+    "C:\\Users\\zaiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Domain\\InvoiceManagementApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Domain\\InvoiceManagementApp.Domain.csproj",
       "projectName": "InvoiceManagementApp.Domain",
-      "projectPath": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Domain\\InvoiceManagementApp.Domain.csproj",
-      "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Domain\\obj\\",
+      "projectPath": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Domain\\InvoiceManagementApp.Domain.csproj",
+      "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -346,7 +346,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,8 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Common\**" />
+    <Compile Remove="Exceptions\**" />
+    <Compile Remove="Handlers\**" />
     <Compile Remove="Helpers\**" />
+    <EmbeddedResource Remove="Common\**" />
+    <EmbeddedResource Remove="Exceptions\**" />
+    <EmbeddedResource Remove="Handlers\**" />
     <EmbeddedResource Remove="Helpers\**" />
+    <None Remove="Common\**" />
+    <None Remove="Exceptions\**" />
+    <None Remove="Handlers\**" />
     <None Remove="Helpers\**" />
   </ItemGroup>
 
@@ -22,13 +31,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InvoiceManagementApp.Domain\InvoiceManagementApp.Domain.csproj" />
-    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="Handlers\" />
-    <Folder Include="Exceptions\" />
   </ItemGroup>
 
 </Project>

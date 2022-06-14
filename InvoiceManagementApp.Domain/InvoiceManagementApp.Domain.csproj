@@ -5,17 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Constants\**" />
     <Compile Remove="Enums\**" />
+    <EmbeddedResource Remove="Constants\**" />
     <EmbeddedResource Remove="Enums\**" />
+    <None Remove="Constants\**" />
     <None Remove="Enums\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Constants\" />
   </ItemGroup>
 
 </Project>

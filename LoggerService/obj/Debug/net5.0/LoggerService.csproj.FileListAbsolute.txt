@@ -10,3 +10,15 @@ C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\LoggerService\bin\Debug\net5.0
 C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.dll
 C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
 C:\Users\CZaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.pdb
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\bin\Debug\net5.0\LoggerService.dll
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.dll
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+C:\Users\zaiz\Desktop\Projects\CleanArquitecture\LoggerService\obj\Debug\net5.0\LoggerService.pdb

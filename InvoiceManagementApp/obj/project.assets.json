@@ -1908,7 +1908,6 @@
           "FluentValidation": "11.0.2",
           "FluentValidation.DependencyInjectionExtensions": "11.0.2",
           "InvoiceManagementApp.Domain": "1.0.0",
-          "LoggerService": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -1940,28 +1939,16 @@
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "5.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InvoiceManagementApp.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InvoiceManagementApp.Infrastructure.dll": {}
-        }
-      },
-      "LoggerService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "NLog": "4.7.13",
           "NLog.Web.AspNetCore": "4.9.1",
           "System.Data.SqlClient": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/LoggerService.dll": {}
+          "bin/placeholder/InvoiceManagementApp.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LoggerService.dll": {}
+          "bin/placeholder/InvoiceManagementApp.Infrastructure.dll": {}
         }
       }
     }
@@ -6726,11 +6713,6 @@
       "type": "project",
       "path": "../InvoiceManagementApp.Infrastructure/InvoiceManagementApp.Infrastructure.csproj",
       "msbuildProject": "../InvoiceManagementApp.Infrastructure/InvoiceManagementApp.Infrastructure.csproj"
-    },
-    "LoggerService/1.0.0": {
-      "type": "project",
-      "path": "../LoggerService/LoggerService.csproj",
-      "msbuildProject": "../LoggerService/LoggerService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6743,23 +6725,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CZaiz\\.nuget\\packages\\": {},
+    "C:\\Users\\zaiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
+      "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
       "projectName": "InvoiceManagementApp",
-      "projectPath": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
-      "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp\\obj\\",
+      "projectPath": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
+      "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6774,11 +6756,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Application\\InvoiceManagementApp.Application.csproj": {
-              "projectPath": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Application\\InvoiceManagementApp.Application.csproj"
+            "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Application\\InvoiceManagementApp.Application.csproj": {
+              "projectPath": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Application\\InvoiceManagementApp.Application.csproj"
             },
-            "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Infrastructure\\InvoiceManagementApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\CZaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Infrastructure\\InvoiceManagementApp.Infrastructure.csproj"
+            "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Infrastructure\\InvoiceManagementApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\zaiz\\Desktop\\Projects\\CleanArquitecture\\InvoiceManagementApp.Infrastructure\\InvoiceManagementApp.Infrastructure.csproj"
             }
           }
         }
@@ -6826,7 +6808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
